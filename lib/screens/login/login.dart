@@ -11,6 +11,13 @@ import 'package:plant_collector/models/user.dart';
 import 'package:plant_collector/screens/login/widgets/button_auth.dart';
 import 'package:plant_collector/widgets/dialogs/dialog_confirm.dart';
 
+/// It's a really good idea to consider adding documentation to your
+/// code using format that is recognize by documentation generator tool.
+/// It seems like dart has one called [dartdoc](https://github.com/dart-lang/dartdoc#dartdoc)
+/// You can checkout some quick intro how it works [here](https://chromium.googlesource.com/external/github.com/flutter/flutter/+/master/dev/snippets/README.md)
+/// and what the generated content looks like [here](https://api.flutter.dev/).
+/// I'm sure you've run into a lot of docs in this format before during your
+/// research. You can have it too!
 class LoginScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
